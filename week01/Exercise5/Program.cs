@@ -48,5 +48,6 @@ class Program
         Console.WriteLine($"{user}, the square of your number is {sqrnumber}.");
     }
 
+    
 }
 
