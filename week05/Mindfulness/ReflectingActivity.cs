@@ -37,10 +37,19 @@ public class ReflectingActivity: Activity
     public void Run()
     {
         this.DisplayStartingMsg();
-        Console.WriteLine("Consider the following prompt.");
-        this.DisplayPrompt();
-        Console.Write("\nWhen you have something in mind, press enter to continue. > ");
-        Console.ReadLine();
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("Get Ready...");
+            Console.WriteLine();
+            Console.WriteLine("Consider the following prompt.");
+            this.DisplayPrompt();
+            Console.Write("\nWhen you have something in mind, press enter to continue or foward slash enter to generate a new prompt. > "); 
+        }
+
+        while(Console.ReadLine() == "/");
+        
+
         Console.Write("\nNow ponder on each of the questions as they are relate to this experience.");
         this.ShowcountDown(10, "\b \b\b \b");
         Console.Clear();

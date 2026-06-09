@@ -39,7 +39,9 @@ public class ListingActivity: Activity
         this.DisplayStartingMsg();
         this.GetRandomPrompt();
         this.GetListFromUser();
+        Console.WriteLine($"You have listed {_count} activities.");
         this.DisplayEndingMsg();
+
 
     }
 
