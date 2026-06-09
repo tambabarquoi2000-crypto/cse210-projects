@@ -1,5 +1,9 @@
 using System;
 
+// Creativity: In the Reflecting activity I added a funtionality to the program for the user to generate 
+// new prompts if they are not feeling comfortable with the generated prompt by entering slash and enter 
+// or just press enter if they are comfortable with the generated prompt.
+
 class Program
 {
     static void Main(string[] args)
