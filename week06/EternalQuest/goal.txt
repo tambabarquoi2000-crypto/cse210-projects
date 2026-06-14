@@ -1,0 +1,4 @@
+700
+Simple Goal:Give a talk,repond to questions when asked during sacrament meeting,100,True
+Enternal Goal:Study the scriptures,study for atleast 10 minutes,50
+Checklist Goal:Attend the temple,Perform any temple ordinance,50,500,3,2
