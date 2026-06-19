@@ -47,8 +47,5 @@ public class SwimmingActivity: Activity
         return Math.Round((60 / CalculateSpeed()), 2);
     }
 
-    public override string GetSummaryString()
-    {
-        return $"{this.GetDate()} Swimming ({this.GetDuration()} min)- Distance {CalculateDistance()} km, Speed: {CalculateSpeed()} kph, Pace: {CalculatePace()} min per km.";
-    }
+
 }

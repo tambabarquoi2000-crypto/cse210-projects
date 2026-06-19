@@ -60,6 +60,9 @@ public abstract class Activity
 
     public abstract double CalculatePace();
 
-    public abstract string GetSummaryString();
+    public  string GetSummaryString()
+    {
+        return $"{this.GetDate()} Running ({this.GetDuration()} min) - Distance {CalculateDistance()} km, Speed: {CalculateSpeed()} kph, Pace: {CalculatePace()} min per km."; 
+    }
     
 }

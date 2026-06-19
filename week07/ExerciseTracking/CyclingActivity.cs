@@ -47,8 +47,5 @@ public class CyclingActivity: Activity
         return Math.Round((CalculateSpeed() / 60), 2);
     }
 
-    public override string GetSummaryString()
-    {
-        return $"{this.GetDate()} Cycling ({this.GetDuration()} min) - Distance {CalculateDistance()} km, Speed: {CalculateSpeed()} kph, Pace: {CalculatePace()}. min per km.";
-    }
+
 }
